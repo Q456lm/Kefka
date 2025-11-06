@@ -1,13 +1,13 @@
-public class Humbah extends SupremeBoohbah{
-    public Humbah(){
+public class Jingbah extends SupremeBoohbah{
+    public Jingbah(){
         super();
         name = "Zumbah";
-        System.out.println(name+"trys to keep the peace.");
+        System.out.println(name+" trys to keep the peace.");
     }
 
     @Override
     public void command(){
-        System.out.println(name+"exclaims, please no more fighting");
+        System.out.println(name+" exclaims, please no more fighting");
     }
 
     public void command(String message,boolean whisper){
@@ -17,5 +17,4 @@ public class Humbah extends SupremeBoohbah{
             System.out.println(message.toUpperCase());
         }
     }
-
 }

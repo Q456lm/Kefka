@@ -8,6 +8,6 @@ public class Humbah extends SupremeBoohbah{
     @Override
     public void command(){
         super.command();
-        System.out.println(name+"follows all orders given");
+        System.out.println(name+" follows all orders given");
     }
 }

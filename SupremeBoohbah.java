@@ -7,7 +7,7 @@ public class SupremeBoohbah{
     }
 
     public void command(){
-        System.out.println("Everyone must obey "name);
+        System.out.println("Everyone must obey "+name);
     }
 
     public void command(String message){
@@ -15,6 +15,6 @@ public class SupremeBoohbah{
     }
 
     public String toString(){
-        return "Zing Zing Zingbah declared himslf supreme boohbahs, now everyone must obey him";
+        return "This is "+name;
     }
 }
